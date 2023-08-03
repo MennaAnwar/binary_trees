@@ -27,7 +27,7 @@ int count_nodes(binary_tree_t *root)
 
 int is_complete(binary_tree_t *root, int index, int n)
 {
-	if (!root || index >= n || (root->right && !root->left ))
+	if (!root || index >= n || (root->right && !root->left))
 		return (0);
 
 	else if (!root->left && !root->right)
