@@ -57,5 +57,6 @@ bst_t *bst_remove(bst_t *root, int value);
 int binary_tree_is_complete(const binary_tree_t *tree);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_avl(const binary_tree_t *tree);
+avl_t *avl_insert(avl_t **tree, int value);
 
 #endif /* BINARY_TREES_H */
