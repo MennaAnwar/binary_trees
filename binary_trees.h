@@ -58,5 +58,6 @@ int binary_tree_is_complete(const binary_tree_t *tree);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_avl(const binary_tree_t *tree);
 avl_t *avl_insert(avl_t **tree, int value);
+avl_t *array_to_avl(int *array, size_t size);
 
 #endif /* BINARY_TREES_H */
