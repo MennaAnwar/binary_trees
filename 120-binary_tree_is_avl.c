@@ -6,7 +6,7 @@ int btia_helper(const binary_tree_t *tree, int min, int max);
  * binary_tree_is_avl - checks if a binary tree is a valid AVL Tree
  * @tree: pointer to the root node of the tree
  * Return: 1 if tree is a valid AVL Tree
- * 			 0 otherwise
+ * 0 otherwise
  */
 int binary_tree_is_avl(const binary_tree_t *tree)
 {
@@ -22,7 +22,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
  * @min: minimum value
  * @max: maximum value
  * Return: 1 if tree is a valid AVL Tree
- * 			 0 otherwise
+ * 0 otherwise
  */
 int btia_helper(const binary_tree_t *tree, int min, int max)
 {
