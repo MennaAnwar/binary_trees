@@ -3,6 +3,9 @@
 /**
  * binary_tree_balance - measures the balance factor of a binary tree
  * @tree: tree to measure the balance factor of
+ * @parent: parent of the tree
+ * @new: new node to insert
+ * @nval: value of the new node
  * Return: balance factor of the tree
  * 0 if tree is NULL
  */
