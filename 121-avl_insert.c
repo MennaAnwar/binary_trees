@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_balance - measures the balance factor of a binary tree
+ * r_insert_node - measures the balance factor of a binary tree
  * @tree: tree to measure the balance factor of
  * @parent: parent of the tree
  * @new: new node to insert
