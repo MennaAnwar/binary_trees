@@ -4,7 +4,7 @@
  * binary_tree_balance - measures the balance factor of a binary tree
  * @tree: tree to measure the balance factor of
  * Return: balance factor of the tree
- * 			 0 if tree is NULL
+ * 0 if tree is NULL
  */
 avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval)
 {
